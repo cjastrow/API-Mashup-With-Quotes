@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	font-family: arial;
+	background-image: url(../Images/BGRed.jpg);
+	background-color: #856667;
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#pattern {
+	position: relative;
+	width: 250px;
+	margin: -300px 0px -20px -20px;
+	display: inline-block;
+	user-select: none;
+	border: 4px solid #9b8a8b;
+	background-color: #bcabac;
+	z-index: 1;
+	border-radius: 15px;
+}
+
+#logo {
+	position: relative;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: -230px;
+	z-index: 10;
+}
+
+h2 {
+	margin-left: 20px;
+	user-select: none;
+}
+
+#type {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#picture {
+	margin: 10px 20px;
+	width: 300px;
+	height: 300px;
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 15px;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+#imageDescription {
+	margin-top: 20px;
+	margin-left: 24px;
+	opacity: 0;
+	color: white;
+	font-size: 10px;
+}
+
+#quoteBox {
+	position: fixed;
+	top: 255px;
+	left: 20px;
+	width: 300px;
+	height: 280px;
+    border-radius: 15px;
+	z-index: 1;
+	opacity: 0;
+}
+
+#q {
+	font-family: arial;
+	color: #bcabac;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+#a {
+	font-family: arial black;
+	font-size: 18px;
+	color: #bcabac;
+	margin-left: 15px;
+}
